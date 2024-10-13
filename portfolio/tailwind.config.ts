@@ -38,6 +38,15 @@ const config = {
           100: "#BEC1DD",
           200: "#C1C2D3",
         },
+        neutral:{
+          900: "#171717"
+        },
+        amber:{
+          500: "#f59e0b"
+        },
+        pink:{
+          300: "#f9a8d4"
+        },
         blue: {
           "100": "#E4ECFF",
         },
