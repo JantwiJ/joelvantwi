@@ -4,7 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import "react-icons/si";
 import { cn } from "@/lib/utils";
-import { SiNextdotjs, SiReactquery, SiSupabase, SiTailwindcss } from "react-icons/si";
+import { SiFigma, SiFlutter, SiVisualstudio, SiWordpress } from "react-icons/si";
 import Link from "next/link";
 import { DirectionAwareHover } from "./ui/direction-aware-hover";
 
@@ -16,7 +16,7 @@ const NewProj = () => {
   {
     title: "Coordinate Saas Dashboard",
 
-    tech: [SiNextdotjs,SiReactquery,SiSupabase],
+    tech: [SiFigma],
           
     link: "/SaasDashboard",
 
@@ -29,7 +29,7 @@ const NewProj = () => {
   {
     title: "Morecribs",
 
-    tech: [SiNextdotjs,SiReactquery,SiTailwindcss],
+    tech: [SiFigma ,SiWordpress],
           
     link: "https://morecribs.com/",
 
@@ -42,7 +42,7 @@ const NewProj = () => {
   {
     title: "Fly",
 
-    tech: [SiNextdotjs,SiReactquery,SiTailwindcss],
+    tech: [SiFigma,SiFlutter],
           
     link: "/Fly",
 
@@ -56,7 +56,7 @@ const NewProj = () => {
   {
     title: "DHS",
 
-    tech: [SiNextdotjs,SiReactquery,SiTailwindcss],
+    tech: [SiFigma,SiVisualstudio ],
           
     link: "/DHS",
 
