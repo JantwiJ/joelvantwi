@@ -42,7 +42,7 @@ const Home = () => {
       <div className="relative top-[50%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 py-12 flex justify-center items-center text-3xl font-bold">
        <h2 className="p7-2">Saas Dashboard</h2>
          <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2 flex  justify-center items-center font-light text-xl">
-            <h3>Figma / Jira / Unsplash</h3>
+            <h3>Figma / Jira / Unsplash </h3>
             </div>
       </div>
 
