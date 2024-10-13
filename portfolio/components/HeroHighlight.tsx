@@ -21,11 +21,11 @@ export function HeroHighlightJoel() {
         className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-50 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
         What's better than a designer?<br/> {" "}
-        <Highlight className="text-black dark:text-white">
+        <Highlight className="text-black dark:text-black">
         
           A UI/UX Designer.
         </Highlight>
-        <p className=" text-lg text-white-200 md:mt-10 my-5 text-center">
+        <p className=" text-lg text-white md:mt-10 my-5 text-center">
         Hi, I'm Joel, a UI/UX designer with 4 years of experience. I've worked remotely and in cities like <br/>Sheffield, London and Manchester.
         </p>
       </motion.h1>
