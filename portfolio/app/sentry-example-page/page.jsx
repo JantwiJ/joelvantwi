@@ -45,8 +45,8 @@ export default function Page() {
             borderRadius: "4px",
             border: "none",
             color: "white",
-            fontSize: "14px",
-            margin: "18px",
+            fontSize: "24px",
+            margin: "24px",
           }}
           onClick={() => {
             Sentry.startSpan({

@@ -4,7 +4,6 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import "react-icons/si";
 import { cn } from "@/lib/utils";
-import { PinContainer } from "./ui/Pin";
 import { SiNextdotjs, SiReactquery, SiSupabase, SiTailwindcss } from "react-icons/si";
 import Link from "next/link";
 import { DirectionAwareHover } from "./ui/direction-aware-hover";
@@ -15,39 +14,39 @@ const NewProj = () => {
   const projects =[
     
   {
-    title: "E-learning Platform",
+    title: "Coordinate Saas Dashboard",
 
     tech: [SiNextdotjs,SiReactquery,SiSupabase],
           
-    link: "http://localhost:3000",
+    link: "/SaasDashboard",
 
-    cover: "/proj1.png",
+    cover: "/Coordinate.png",
 
     background: "bg-indigo-500",
 
   },
 
   {
-    title: "E-Fly Platform",
+    title: "Morecribs",
 
     tech: [SiNextdotjs,SiReactquery,SiTailwindcss],
           
-    link: "http://localhost:3000",
+    link: "https://morecribs.com/",
 
-    cover: "/proj3.png",
+    cover: "/Morecribs.png",
 
     background: "bg-yellow-300",
 
   },
 
   {
-    title: "Millionaire Lo-fi",
+    title: "Fly",
 
     tech: [SiNextdotjs,SiReactquery,SiTailwindcss],
           
-    link: "http://localhost:3000",
+    link: "/Fly",
 
-    cover: "/proj3.png",
+    cover: "/Fly.png",
 
     background: "bg-orange-400",
 
@@ -55,13 +54,13 @@ const NewProj = () => {
 
 
   {
-    title: "Lorem Platform",
+    title: "DHS",
 
     tech: [SiNextdotjs,SiReactquery,SiTailwindcss],
           
-    link: "/SaasDashboard",
+    link: "/DHS",
 
-    cover: "/proj3.png",
+    cover: "/DHS.png",
 
     background: "bg-neutral-50",
 
@@ -98,7 +97,7 @@ const NewProj = () => {
             
           })}
           <div className="flex underline justify-between items-center">
-            <p className="flex lg:text-xl md:text-xs text-sm">View Project</p>
+            <p className="flex lg:text-xl md:text-xs text-sm">View</p>
             <FaLocationArrow className="ms-3" color="Neutral-50"/>
           </div>
         </div>
