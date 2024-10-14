@@ -10,7 +10,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="text-white heading lg:max-w-[45vw]">
-          Have an intresting <span className="text-purple"> <br/>Job or Project </span> 
+          Have an interesting <span className="text-purple"> <br/>Job or Project </span> 
           <br/>that I'd be perfect for?
         </h1>
         <p className="text-white-200 md:mt-10  text-center">
