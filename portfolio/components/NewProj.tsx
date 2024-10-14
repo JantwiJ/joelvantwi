@@ -20,7 +20,7 @@ const NewProj = () => {
           
     link: "/SaasDashboard",
 
-    cover: "/Coordinate.png",
+    cover: "/CoordinateMini.png",
 
     background: "bg-indigo-500",
 
@@ -33,7 +33,7 @@ const NewProj = () => {
           
     link: "https://morecribs.com/",
 
-    cover: "/Morecribs.png",
+    cover: "/MorecribsMini.png",
 
     background: "bg-yellow-300",
 
@@ -46,7 +46,7 @@ const NewProj = () => {
           
     link: "/Fly",
 
-    cover: "/Fly.png",
+    cover: "/FlyMini.png",
 
     background: "bg-orange-400",
 
@@ -60,7 +60,7 @@ const NewProj = () => {
           
     link: "/DHS",
 
-    cover: "/DHS.png",
+    cover: "/DHSMini.png",
 
     background: "bg-neutral-50",
 
