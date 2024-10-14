@@ -16,9 +16,10 @@ import ResearchTwo from '@/public/assests/Lancaster/Research2.jpg'
 import UserFlowTwo from '@/public/assests/Lancaster/DHS Userflow.png'
 import WFrameTwo from '@/public/assests/Lancaster/Shot2 (1).png'
 import PlanTwo from '@/public/assests/Lancaster/bAlpha.gif'
-import PlanTwo2 from '@/public/assests/Lancaster/MapText.png'
-import PlanTwo3 from '@/public/assests/Lancaster/MapGif.gif'
-import Numbers2 from '@/public/assests/Lancaster/RNumbers.png'
+import PlanTwo2 from '@/public/assests/Lancaster/b1.png'
+import PlanTwo3 from '@/public/assests/Lancaster/b2.png'
+import PlanTwo4 from '@/public/assests/Lancaster/b3.png'
+import Numbers2 from '@/public/assests/Lancaster/num2.png'
 import ConclusionTwo from '@/public/assests/Lancaster/MCCC.png'
 import MyTeamTwo from "@/components/MyTeamTwo";
 
@@ -286,8 +287,82 @@ Overall, the research combined technical learning, user-centered design principl
 
 <div className="pt-5">
         <Image
+        unoptimized={true}
           className="mx-auto"
           src={PlanTwo}
+          alt='/'
+          width={800}
+          height={500}/>
+          
+      
+      </div>
+
+
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
+       <div className="col-start-2 col-span-4">
+       <h3 className="font-bold text-2xl pb-5"> Pipe Data:</h3>
+       <p>
+       In the Lancaster University DHS project, I focused on how pipe size affects flow rates and system efficiency. Larger pipes handle more heat but increase costs and heat loss, while smaller pipes are more efficient but may struggle with demand. I worked with the engineering consultant to understand these factors and integrated them into the software, allowing users to simulate changes like pipe size adjustments and visualize their impact on system stress. This helped optimize the system's performance while protecting proprietary data and formulas.
+       </p>
+     
+</div>
+</div>
+
+<div className="pt-5">
+        <Image
+          className="mx-auto"
+          src={PlanTwo2}
+          alt='/'
+          width={800}
+          height={500}/>
+          
+      
+      </div>
+
+
+
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
+       <div className="col-start-2 col-span-4">
+       <h3 className="font-bold text-2xl pb-5"> Network Size</h3>
+       <p>
+       In the distributed heating system (DHS) project at Lancaster University, I visualized the network size, which included mapping buildings and heat-distributing pipes. Using Excel data on pipe capacity, I developed software that overlaid this information onto a digital schematic. This allowed users to assess the network size and run stress scenarios, showing how changes like pipe modifications or heat generation would impact the system. My solution made it easier to manage the system's complexity and ensure stability across the network.
+       </p>
+     
+</div>
+</div>
+
+<div className="pt-5">
+        <Image
+          className="mx-auto"
+          src={PlanTwo3}
+          alt='/'
+          width={800}
+          height={500}/>
+          
+      
+      </div>
+
+
+
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
+       <div className="col-start-2 col-span-4">
+       <h3 className="font-bold text-2xl pb-5"> Building Info</h3>
+       <p>
+       In my work on Lancaster University's distributed heating system (DHS), I accounted for how building size affects heat distribution, with larger buildings placing more load on the system. I ensured the pipe sizes and materials could handle this, considering how temperature changes impact heat transfer efficiency.
+       </p>
+
+       <br></br>
+       <p>
+       I designed software that calculates system stress and lets users run scenarios to see how modifications affect the network. To simplify monitoring, I added a traffic light system: red indicates stress, green shows optimal performance, and yellow flags underperformance. This allows users to quickly identify and address potential issues across the system.
+       </p>
+     
+</div>
+</div>
+
+<div className="pt-5">
+        <Image
+          className="mx-auto"
+          src={PlanTwo4}
           alt='/'
           width={800}
           height={500}/>
