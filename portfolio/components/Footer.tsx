@@ -13,7 +13,7 @@ const Footer = () => {
           Have an intresting <span className="text-purple"> <br/>Job or Project </span> 
           <br/>that I'd be perfect for?
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
+        <p className="text-white-200 md:mt-10  text-center">
         Contact me to learn how I can help.
         </p>
         <a href="mailto:antwi32@gmail.com">
@@ -24,7 +24,7 @@ const Footer = () => {
           />
         </a>
 
-        <h2 className="text-white heading lg:max-w-24 pt-8">
+        <h2 className="text-white heading lg:max-w-24 pt-8 pb-8">
            OR
         </h2>
 

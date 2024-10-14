@@ -15,9 +15,9 @@ import HypoOne from '@/public/assests/Coordinate/Hypo.jpg'
 import ResearchOne from '@/public/assests/Coordinate/undrawcustomer.svg'
 import UserFlowOne from '@/public/assests/Coordinate/UserflowCoordinate.png'
 import WFrameOne from '@/public/assests/Coordinate/wireframe.gif'
-import PlanOne from '@/public/assests/Coordinate/featOne.png'
-import PlanOne2 from '@/public/assests/Coordinate/featTwop1.png'
-import PlanOne3 from '@/public/assests/Coordinate/featTwop2.gif'
+import PlanOne from '@/public/assests/Coordinate/F1.png'
+import PlanOne2 from '@/public/assests/Coordinate/f2.png'
+import PlanOne3 from '@/public/assests/Coordinate/f3.gif'
 import Numbers from '@/public/assests/Coordinate/Numbers.png'
 import ConclusionOne from '@/public/assests/Coordinate/Conc.png'
 import MyTeamVone from "@/components/MyTeamVone";
@@ -50,14 +50,14 @@ const Home = () => {
 
 
 
-<div className=" max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16">
+<div className=" max-w-[1240px] mx-auto p-2 grid sm:*:grid-cols-1 md:grid-cols-6 gap-8 pt-16">
 <div className="col-start-2 col-span-4">
    <MyTeamVone/>
 </div>
    </div>
      
 
-       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Project</p>
        <h2 className="font-bold text-2xl pb-5">Overview</h2>
@@ -76,7 +76,7 @@ const Home = () => {
 
 
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 1</p>
        <h2 className="font-bold text-2xl pb-5">Highlights</h2>
@@ -98,7 +98,7 @@ const Home = () => {
       
       </div>
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 2</p>
        <h2 className="font-bold text-2xl pb-5">The Challenge</h2>
@@ -114,7 +114,7 @@ const Home = () => {
 </div>
 
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 3</p>
        <h2 className="font-bold text-2xl pb-5">Hypothesis</h2>
@@ -141,7 +141,7 @@ const Home = () => {
       </div>
 
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 4</p>
        <h2 className="font-bold text-2xl pb-5">Research and Analysis</h2>
@@ -185,7 +185,7 @@ I synthesized all findings into actionable insights, creating user personas, map
       
       </div>
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 5</p>
        <h2 className="font-bold text-2xl pb-5">Userflow</h2>
@@ -212,7 +212,7 @@ I synthesized all findings into actionable insights, creating user personas, map
 
 
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 6</p>
        <h2 className="font-bold text-2xl pb-5">Wireframing</h2>
@@ -238,7 +238,7 @@ I synthesized all findings into actionable insights, creating user personas, map
       </div>
 
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 7</p>
        <h2 className="font-bold text-2xl pb-5"> Executing my plan</h2>
@@ -273,11 +273,48 @@ I synthesized all findings into actionable insights, creating user personas, map
       
       </div>
 
-     < div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
-    
-    <div className="col-start-2 col-span-2">
+
+
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
+       <div className="col-start-2 col-span-4">
+       <h3 className="font-bold text-2xl pb-5"> Dashboard View for Various User Types:</h3>
+       <p>
+       The dashboard displayed here is designed specifically for super users. A key feature of this modular dashboard is its customization for various business users, with widget and container sizes adjusting based on the user type.
+       </p>
+       <br></br>
+       <p>
+       This personalization enables each user to concentrate on the information most relevant to their roles and responsibilities, minimizing clutter and enhancing overall navigation.
+       </p>
+</div>
+</div>
+
+<div className="pt-5">
         <Image
-          className="mx-auto "
+          className="mx-auto"
+          src={PlanOne}
+          alt='/'
+          width={800}
+          height={500}/>
+          
+      
+      </div>
+
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
+       <div className="col-start-2 col-span-4">
+       <h3 className="font-bold text-2xl pb-5"> News Feed widget:</h3>
+       <p>
+       The new news feed widget represents a substantial upgrade from its predecessor. It boasts a more visually appealing design, enhanced navigation, and several exciting new features.
+       </p>
+       <br></br>
+       <p>
+       One standout addition is the option to expand the news feed widget for more in-depth information on each news item. Users can easily do this by clicking on the item's title or image. The expanded view reveals the full text of the article, along with any related images or videos, providing a richer experience.
+     </p>
+</div>
+</div>
+
+<div className="pt-5">
+        <Image
+          className="mx-auto"
           src={PlanOne2}
           alt='/'
           width={800}
@@ -285,20 +322,41 @@ I synthesized all findings into actionable insights, creating user personas, map
           
       
       </div>
-      <div className="col-start-4 col-span-2 ">
+
+
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
+       <div className="col-start-2 col-span-4">
+       <h3 className="font-bold text-2xl pb-5"> To-do List widget:</h3>
+       <p>
+       This section showcases the revamped to-do list and the streamlined process for adding and editing tasks.
+      </p>
+      <br></br>
+       <p>
+       To add a new task, users simply click the “Add New Task” button, which opens a user-friendly modal dialog. Here, they can effortlessly enter the task name and description. Once they've completed the details, they just click the “Add” button to save the task.</p>
+
+     <p>
+
+     Editing an existing task is just as easy. Users can click the edit icon next to the task name, which brings up a modal dialog for modifications. They can update the task name and description, and once satisfied with their changes, they simply click “Save” to apply the updates.</p>
+
+</div>
+</div>
+
+<div className="pt-5">
         <Image
-          className="mx-auto max-w-md"
-          unoptimized={true}
+          className="mx-auto"
           src={PlanOne3}
           alt='/'
           width={800}
-          height={800}/>
+          height={500}/>
           
       
       </div>
-</div>
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+    
+
+
+
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 8</p>
        <h2 className="font-bold text-2xl pb-5">What the numbers say</h2>
@@ -323,7 +381,7 @@ I synthesized all findings into actionable insights, creating user personas, map
 
 
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 9</p>
        <h2 className="font-bold text-2xl pb-5"> Conclusion </h2>

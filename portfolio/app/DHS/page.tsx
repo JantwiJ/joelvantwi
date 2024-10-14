@@ -15,7 +15,7 @@ import HypoTwo from '@/public/assests/Lancaster/Rectangle 155712.png'
 import ResearchTwo from '@/public/assests/Lancaster/Research2.jpg'
 import UserFlowTwo from '@/public/assests/Lancaster/DHS Userflow.png'
 import WFrameTwo from '@/public/assests/Lancaster/Shot2 (1).png'
-import PlanTwo from '@/public/assests/Lancaster/PlanJ.png'
+import PlanTwo from '@/public/assests/Lancaster/bAlpha.gif'
 import PlanTwo2 from '@/public/assests/Lancaster/MapText.png'
 import PlanTwo3 from '@/public/assests/Lancaster/MapGif.gif'
 import Numbers2 from '@/public/assests/Lancaster/RNumbers.png'
@@ -57,7 +57,7 @@ const Home = () => {
    </div>
      
 
-       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Project</p>
        <h2 className="font-bold text-2xl pb-5">Overview</h2>
@@ -76,7 +76,7 @@ const Home = () => {
 
 
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 1</p>
        <h2 className="font-bold text-2xl pb-5">Highlights</h2>
@@ -98,7 +98,7 @@ const Home = () => {
       
       </div>
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 2</p>
        <h2 className="font-bold text-2xl pb-5">The Challenge</h2>
@@ -110,7 +110,7 @@ const Home = () => {
 </div>
 
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 3</p>
        <h2 className="font-bold text-2xl pb-5">Hypothesis</h2>
@@ -134,7 +134,7 @@ If a specialized software solution is developed for Lancaster University's distr
       </div>
 
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 4</p>
        <h2 className="font-bold text-2xl pb-5">Research and Analysis</h2>
@@ -190,7 +190,7 @@ Overall, the research combined technical learning, user-centered design principl
       
       </div>
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 5</p>
        <h2 className="font-bold text-2xl pb-5">Userflow</h2>
@@ -214,7 +214,7 @@ Overall, the research combined technical learning, user-centered design principl
 
 
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 6</p>
        <h2 className="font-bold text-2xl pb-5">Wireframing & Design</h2>
@@ -240,7 +240,7 @@ Overall, the research combined technical learning, user-centered design principl
       </div>
 
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 7</p>
        <h2 className="font-bold text-2xl pb-5"> Executing my plan</h2>
@@ -265,38 +265,31 @@ Overall, the research combined technical learning, user-centered design principl
 </div>
 
 
-< div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
-    
-    <div className="col-start-2 col-span-2">
-        <Image
-          className="mx-auto "
-          src={PlanTwo2}
-          alt='/'
-          width={800}
-          height={500}/>
-          
-      
-      </div>
-      <div className="col-start-4 col-span-2 ">
-        <Image
-          unoptimized={true}
-          className="mx-auto max-w-md"
-          src={PlanTwo3}
-          alt='/'
-          width={800}
-          height={800}/>
-          
-      
-      </div>
-</div>
+<div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
+       <div className="col-start-2 col-span-4">
+       <h3 className="font-bold text-2xl pb-5"> Map Type:</h3>
+       <p>
+       I enhanced the DHS software by incorporating different map types—"satellite," "dark," and "building schematics"—to improve usability. 
+      </p>
+      <br></br>
+       <p>
+       The satellite view provided a real-world layout of the university's infrastructure, helping users visualize the system in its geographical context.  </p>
+       <br></br>
+     <p>
+     The dark mode offered a high-contrast, low-light option for better focus and reduced eye strain.  </p>
+     <br></br>
 
+     <p>
+     The building schematics focused on the pipe network within each building, using digital schematics I converted hand-drawn schematics into digital formats using Adobe Illustrator and overlaid them with data from the spreadsheets. This view allowed users to drill down into specific parts of the DHS, focusing on the pipe network and individual building systems without clutter from external map elements. </p>
+</div>
+</div>
 
 <div className="pt-5">
         <Image
-          className="mx-auto "
+          className="mx-auto"
           src={PlanTwo}
           alt='/'
-          width={900}
+          width={800}
           height={500}/>
           
       
@@ -304,7 +297,7 @@ Overall, the research combined technical learning, user-centered design principl
 
 
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-centerr ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 8</p>
        <h2 className="font-bold text-2xl pb-5">What the numbers say</h2>
@@ -327,7 +320,7 @@ Overall, the research combined technical learning, user-centered design principl
 
 
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-justify items-center ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white content-center items-center ">
        <div className="col-start-2 col-span-4">
        <p className="pb-4"> Step 9</p>
        <h2 className="font-bold text-2xl pb-5"> Conclusion </h2>
