@@ -13,7 +13,7 @@ const Footer = () => {
           Have an interesting <span className="text-purple"> <br/>Job or Project </span> 
           <br/>that I'd be perfect for?
         </h1>
-        <p className="text-white-200 md:mt-10  text-center">
+        <p className="text-white-200 md:mt-10  text-center py-5">
         Contact me to learn how I can help.
         </p>
         <a href="mailto:antwi32@gmail.com">
