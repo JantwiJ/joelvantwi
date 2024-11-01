@@ -27,15 +27,28 @@ const NewProj = () => {
   },
 
   {
-    title: "Morecribs",
+    title: "DHS",
 
-    tech: [SiFigma ,SiWordpress],
+    tech: [SiFigma,SiVisualstudio ],
           
-    link: "https://morecribs.com/",
+    link: "/DHS",
 
-    cover: "/MorecribsMini.png",
+    cover: "/DHSMini.png",
 
-    background: "bg-yellow-300",
+    background: "bg-neutral-50",
+
+  },
+
+  {
+    title: "Smile Bank",
+
+    tech: [SiFigma],
+          
+    link: "/SmileBank",
+
+    cover: "/SmileBankMini.png",
+
+    background: "bg-pink-700",
 
   },
 
@@ -52,17 +65,16 @@ const NewProj = () => {
 
   },
 
-
   {
-    title: "DHS",
+    title: "Morecribs",
 
-    tech: [SiFigma,SiVisualstudio ],
+    tech: [SiFigma ,SiWordpress],
           
-    link: "/DHS",
+    link: "https://morecribs.com/",
 
-    cover: "/DHSMini.png",
+    cover: "/MorecribsMini.png",
 
-    background: "bg-neutral-50",
+    background: "bg-yellow-300",
 
   },
 
