@@ -41,7 +41,7 @@ const Home = () => {
     
        <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-16 text-white text-center items-center ">
        <div className="col-start-2 col-span-4">
-       <h2 className="font-bold text-2xl pb-5">Launching in Novermber</h2>
+       <h2 className="font-bold text-2xl pb-5">Launching in January</h2>
        <p>
       Fly, the cutting-edge event and clothing startup app, seeks a UI/UX design that matches its ambitious vision. The app's interface should not only embody the company's bold aspirations but also resonate deeply with its target audience, creating an engaging and memorable user experience.
        </p>
