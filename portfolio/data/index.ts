@@ -18,7 +18,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Eterprise-level Saas",
+    title: "Enterprise-level Saas",
     desc: "Proven 2+ years of experience building global enterprise-level SaaS applications for startups, serving customers worldwide.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/map.svg",
